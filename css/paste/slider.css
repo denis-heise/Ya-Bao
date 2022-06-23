@@ -1,0 +1,41 @@
+.slider {
+    margin-left: -900px;
+    overflow: hidden;
+    z-index: -1;
+    transition: all 0.8s ease 0s;
+    margin-top: 11%;
+}
+.slides {
+    display: inline-flex;
+}
+.slide {
+    cursor: pointer;
+    max-height: 437px;
+    opacity: 0.3;
+    margin-top: 10px;
+    transition: all 0.8s ease 0s;
+}
+.activeSlider{
+    max-height: 457px;
+    opacity: 1;
+    margin-top: 0;
+    transition: all 0.8s ease 0s;
+}
+.leftBtn, .rightBtn {
+    width: 200px;
+    height: 392px;
+    position: absolute;
+    background-color: #000;
+    top: 205px;
+    opacity: 0;
+    cursor: pointer;
+}
+.leftBtn {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+.rightBtn{
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+

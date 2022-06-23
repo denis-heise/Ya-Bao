@@ -1,0 +1,177 @@
+.popup {
+    position: fixed;
+    width: 349px;
+    min-height: 343px;
+    max-height: 463px;
+    left: 1012px;
+    top: 138px;
+    background: #fff;
+    border-radius: 10px;
+    z-index: -2;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.26);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+}
+.popup__block-pizza {
+    display: inline-flex;
+    border-bottom: 1px solid #ECECF1;
+    width: 270px;
+    margin-top: 7%;
+    margin-left: 38px;
+    padding-bottom: 3%;
+}
+.popup__img-block>img {
+    width: 71px;
+    height: 71px;
+}
+.popup__details {
+    margin-left: 5%;
+    width: 130px;
+}
+.popup__name-pizza {
+    width: 146px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: #0E0C0D;
+}
+.popup__amount {
+    width: 93px;
+    height: 32px;
+    background: #F3F3F7;
+    border-radius: 8px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+.popup__amount>div {
+    width: 7px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #686466;
+    margin-left: 19%;
+}
+.popup__price-one {
+    width: 54px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FF2E65;
+    margin-top: 36px;
+}
+.popup__price-pizza>img {
+    width: 17px;
+    height: 17px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.popup__price-block {
+    display: inline-flex;
+    margin-left: 38px;
+    margin-top: 15px;
+}
+.popup__sum {
+    width: 115px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+    color: #0E0C0D;
+    margin: auto 0;
+}
+.popup__sumPrice {
+    width: 115px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #FF2E65;
+    margin-left: 40px;
+}
+.popup__symbol{
+    cursor: pointer;
+    user-select: none;
+}
+.popup__question{
+    width: 180px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FF2E65;
+    margin-left: 38px;
+    margin-top: 15px;
+}
+.popup__block-drink {
+    display: inline-flex;
+    margin: 20px 0 25px 38px;
+    transition: all 0.8s ease 0s;
+}
+.popup__one-drink {
+    display: inline-flex;
+    width: 255px;
+    height: 99px;
+    background: #FFFFFF;
+    border: 1.5px solid #E2E2E9;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    user-select: none;
+}
+
+.popup__one-drink>img {
+    width: 71px;
+    height: 71px;
+    margin: auto 15px;
+}
+.popup__details-drink{
+    margin-top: 25px;
+}
+.popup__description-drink{
+    width: 143px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000;
+}
+.popup__price-drink {
+    width: 59px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF2E65;
+    margin-top: 5px;
+}
+.popup__rhombus{
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 1302px;
+    top: 130px;
+    z-index: -3;
+    background: #fff;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.active-popup{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    z-index: 20;
+}
+.select{
+    background: rgb(250, 250, 250);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.26);
+    transition: all 0.3s ease 0s;
+}

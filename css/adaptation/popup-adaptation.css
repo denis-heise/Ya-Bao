@@ -1,0 +1,120 @@
+@media(max-width: 1536px){
+    .popup__rhombus {
+        left: 1170px;
+    }
+    .popup {
+        left: 880px;
+    }
+    .popup__price-pizza>img {
+        width: 18px;
+        height: 18px;
+    }
+}
+@media(max-width: 1440px){
+    .popup__rhombus {
+        left: 1145px;
+    }
+    .popup {
+        left: 855px;
+    }
+}
+@media(max-width: 1280px){
+    .popup__rhombus {
+        left: 1080px;
+    }
+    .popup {
+        left: 790px;
+    }
+}
+@media(max-width: 1200px){
+    .popup__rhombus {
+        left: 1035px;
+    }
+    .popup {
+        left: 745px;
+    }
+}
+@media(max-width: 1024px){
+    .popup__rhombus {
+        left: 885px;
+    }
+    .popup {
+        left: 595px;
+    }
+}
+@media(max-width: 920px){
+    .popup__rhombus {
+        left: 755px;
+    }
+    .popup {
+        left: 465px;
+    }
+}
+@media (max-width: 820px){
+    .popup__rhombus {
+        left: 660px;
+    }
+    .popup {
+        left: 370px;
+    }
+}
+@media(max-width: 540px){
+    .popup__rhombus {
+        left: 400px;
+    }
+    .popup {
+        left: 111px;
+    }
+}
+@media(max-width: 414px){
+    .popup__rhombus {
+        left: 273px;
+    }
+    .popup {
+        left: 30px;
+    }
+}
+@media(max-width: 375px){
+    .popup {
+        left: 14px;
+    }
+}
+@media(max-width: 360px){
+    .popup {
+        left: 6px;
+    }
+}
+@media(max-width: 280px){
+    .popup {
+        width: 269px;
+    }
+    .popup__rhombus {
+        left: 185px;
+    }
+    .popup__block-pizza {
+        margin-left: 7px;
+    }
+    .popup__details {
+        margin-left: 3%;
+        width: 110px;
+    }
+    .popup__price-block {
+        margin-left: 8px;
+    }
+    .popup__sumPrice {
+        margin-left: 12px;
+    }
+    .popup__question{
+        margin-left: 8px;
+    }
+    .popup__block-drink {
+        margin-left: 8px;
+    }
+    .popup__one-drink {
+        width: 230px;
+        margin-right: 10px;
+    }
+    .popup__one-drink>img {
+        margin: auto 8px;
+    }
+}

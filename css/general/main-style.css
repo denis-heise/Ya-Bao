@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior:smooth;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #0E0C0D;    
+}
+.button-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 1px;
+    background: #515769;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+    opacity: .4;
+    transition: all 0.8s ease 0s; 
+    cursor: pointer;
+    float: top;
+}
+.button-top:hover {
+    opacity: 1;
+    transition: all 0.8s ease 0s; 
+}
+.text-family {
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+

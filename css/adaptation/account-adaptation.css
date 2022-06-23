@@ -1,0 +1,201 @@
+@media(max-width: 1280px){
+    .block-bonus__title {
+        padding-top: 158px;
+    }
+}
+@media(max-width: 1152px){
+    .header-content__second-block {
+        margin-right: 240px;
+    }
+    .header-content__menu {
+        width: 848px;
+    }
+    .block-message__popup {
+        top: 50px;
+        left: 190px;
+    }
+    .block-message__rhombus {
+        top: 45px;
+        left: 395px;
+    }
+}
+@media(max-width: 1024px){
+    .header-content__second-block>div {
+        width: 210px;
+    }
+    .header-content__second-block {
+        margin-right: 130px;
+    }
+    .header-content__menu {
+        width: 720px;
+    }
+    .header-content__bottom-block {
+        max-width: 960px;
+    }
+    .header-content__top-block {
+        max-width: 970px;
+    }
+    .block-message {
+        width: 425px;
+    }
+}
+@media(max-width: 920px){
+    .header-content__menu {
+        width: 595px;
+    }
+    .wrapper{
+        overflow-x: hidden;
+    }
+    .block-bonus__wrapper {
+        margin-left: 210px;
+    }
+    .block-enter__underline{
+        left: 211px;
+    }
+    .block-personal-data{
+        margin-left: 210px;
+    }
+    .block-subscription{
+        margin-left: 210px;
+    }
+    .button-exit {
+        margin-left: 210px;
+    }
+}
+@media (max-width: 820px){
+    .header-content__menu {
+        width: 502px;
+    }
+    .block-message__popup {
+        left: 155px;
+    }
+}
+@media(max-width: 768px){
+    .header-content__menu {
+        width: 450px;
+    }
+    .block-message__popup {
+        left: 80px;
+    }
+}
+@media(max-width: 540px){
+    .header-content__menu {
+        width: 215px;
+    }
+    .block-bonus__wrapper{
+        margin-left: 90px;
+    }
+    .block-personal-data{
+        margin-left: 90px;
+    }
+    .block-subscription{
+        margin-left: 90px;
+    }
+    .button-exit {
+        margin-left: 90px;
+    }
+    .block-enter__underline {
+        left: 91px;
+    }
+    .block-message__popup {
+        left: 10px;
+    }
+}
+@media(max-width: 414px){
+    .header-content__menu {
+        width: 89px;
+    }
+    .block-bonus__wrapper{
+        margin-left: 10px;
+    }
+    .block-personal-data{
+        margin-left: 10px;
+    }
+    .block-subscription{
+        margin-left: 10px;
+    }
+    .button-exit {
+        margin-left: 10px;
+    }
+    .block-enter__underline {
+        left: 12px;
+    }
+    .block-message__checkbox-block {
+        width: 366px;
+    }
+    .block-message__details-report {
+        display: none;
+    }
+}
+@media(max-width: 375px){
+    .header-content__basket {
+        margin-left: 17px;
+    }
+    .block-subscription{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .block-personal-data__input-name {
+        width: 330px;
+    }
+    .block-personal-data__first-input-phone{
+        width: 330px;
+    }
+    .block-personal-data__month-birthday{
+        width: 262px;
+    }
+    .block-personal-data__second-input-phone{
+        width: 330px;
+    }
+    .block-personal-data__verification-code-input{
+        width: 330px;
+    }
+    .block-personal-data__button-change {
+        left: 240px;
+    }
+    .block-personal-data__button-save-phone{
+        left: 240px;
+    }
+    .block-personal-data__verification-code-change{
+        left: 240px;
+    }
+}
+@media(max-width: 280px){
+    .header-content__menu {
+        width: 52px;
+    }
+    .block-personal-data__title {
+        font-size: 25px;
+    }
+    .block-personal-data__input-name {
+        width: 260px;
+    }
+    .block-personal-data__first-input-phone{
+        width: 260px;
+    }
+    .block-personal-data__month-birthday{
+        width: 190px;
+    }
+    .block-personal-data__second-input-phone{
+        width: 260px;
+    }
+    .block-personal-data__verification-code-input{
+        width: 260px;
+    }
+    .block-personal-data__button-save-phone {
+        left: 170px;
+    }
+    .block-personal-data__button-change {
+        left: 170px;
+    }
+    .block-personal-data__verification-code-change {
+        left: 170px;
+    }
+    .block-enter__underline {
+        left: 10px;
+    }
+    .button-exit {
+        height: 40px;
+    }
+}
