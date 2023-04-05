@@ -1,0 +1,105 @@
+header{
+    position: static;
+    margin-top: 0;
+}
+.header-content {
+    display: inline-flex;
+}
+.header-content__text-logo{
+    margin-left: 20px;
+}
+.header-content__second-block {
+    display: inline-flex;
+    position: relative;
+    margin-left: 500px;
+}
+.header-content__dotted-line-first, .header-content__dotted-line-second {
+    position: absolute;
+   width: 102px;
+    height: 0px;
+    top: 16px;
+    border: 1px dashed #B8C5D0;
+}
+.header-content__dotted-line-first {
+    left: 60px;
+}
+.header-content__dotted-line-second {
+    left: 230px;
+}
+.header-content__cell-first {
+    margin-right: 80px;
+}
+.header-content__cell-second {
+    margin-right: 67px;
+}
+.header-content__circle-pink {
+   width: 36px;
+    height: 36px;
+    background: #FF2E65;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content__circle-pink>div {
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+.header-content__basket-title {
+   width: 54px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;  
+    color: rgba(14, 12, 13, 0.8);
+    opacity: 0.6;  
+    text-align: center;
+}
+.header-content__circle-transparent {
+   width: 36px;
+    height: 36px;
+    border: 2px solid #FF2E65;
+    box-sizing: border-box;
+    opacity: 0.6;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content__circle-transparent>div {
+    color: #FF2E65;
+    opacity: 0.6;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+.header-content__order-title {
+    width: 85px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgba(14, 12, 13, 0.8);
+    text-align: center;
+}
+.header-content__other-title {
+   width: 85px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgba(14, 12, 13, 0.8);
+    text-align: center;
+    opacity: 0.6;  
+}
+.wrapper-accepted {
+    width: 100%;
+    margin: 100px 0;
+}
+.accepted-title {
+    font-family: 'Panton';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 26px;
+    font-weight: 800;
+    color: #FF2E65;
+    text-align: center;
+}

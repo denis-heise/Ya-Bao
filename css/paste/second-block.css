@@ -1,0 +1,61 @@
+.block-content-second{
+    width: 80%;
+    margin-left: 225px;
+}
+.block-content-second__novelty-text{
+    width: 117px;
+    height: 29px;
+    left: 220px;
+    top: 855px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #231F20;
+    margin-bottom: 35px;
+}
+.block-content-second__novelty-pizza{
+    display: inline-flex;
+}
+.block-content-second__greenery-img{
+    position: absolute;
+    z-index: -1;
+    left: 170px;
+    top: 1000px;
+    width: 90px;
+    height: 195px;
+    transform: rotate(-5deg);
+}
+.block-content-second__novelty-pizza>div{
+    width: 270px;
+    height: 99px;
+    background: #fff;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.block-content-second__novelty-pizza-one{
+    display: inline-flex;
+}
+.block-content-second__novelty-pizza-one>img{
+    width: 71px;
+    height: 71px;
+    margin: auto 20px;
+}
+.block-content-second__novelty-pizza-one>div{
+    margin: auto 5px;
+    width: 107px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+}
+.novelty-pizza-margin-right{
+    margin-right: 30px;
+}
+.block-content-second__price{
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF2E65;
+}

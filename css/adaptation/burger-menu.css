@@ -1,0 +1,106 @@
+body.lock {
+    overflow: hidden;
+}
+.burger-menu__wrapper {
+    position: fixed;
+    display: none;
+}
+.burger-menu__body {
+    position: absolute;
+    display: none;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    background-color: #FF2E65;
+    border-radius: 5px;
+}       
+.burger-menu__strip {
+    display: block;
+    position: relative;
+    width: 31px;
+    height: 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+.burger-menu__strip > span {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 17px;
+    left: 2px;
+    transition: all 0.3s ease 0s;
+}
+.burger-menu__strip::before, .burger-menu__strip::after {
+    position: absolute;
+    background-color: #fff;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 2px;
+    transition: all 0.3s ease 0s;
+}
+.burger-menu__strip::before {
+    top: 8px;
+}
+.burger-menu__strip::after {
+    bottom: -8px;
+}
+.burger-menu__strip.active::before {
+    transform: rotate(45deg);
+    top: 15px;
+}
+.burger-menu__strip.active::after {
+    transform: rotate(-45deg);
+    bottom: 3px;
+}
+.burger-menu__strip.active > span {
+    transform: scale(0);
+}
+.burger-menu__header {
+    position: relative;
+    top: -16px;
+    left: -1000px;
+    transition: all 0.3s ease 0s;
+    background-color: #FF2E65;
+}
+.burger-menu__header.active {
+    left: 0;
+    width: 185px;
+    border-radius: 5px;
+}
+.burger-menu__list {
+    display: block;
+    padding: 20% 2% 2% 30%;
+}
+.burger-menu__list > li {
+    font-size: 22px;
+    font-weight: 700;
+    list-style: none;
+    margin: 0;
+    line-height: 2;
+    color: #fff;
+}
+.burger-menu__list > li > a {
+    color: #fff;
+    cursor: pointer;
+}
+.burger-menu__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+}
+.header-content__text{
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    font-size: 23px;
+    font-weight: 900;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}

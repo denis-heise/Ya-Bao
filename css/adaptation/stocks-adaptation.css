@@ -1,0 +1,314 @@
+@media(min-width: 1537px){
+    header{
+        margin-top: -11%;
+    }
+}
+@media(max-width: 1536px){
+    header{
+        margin-top: -11%;
+    }
+    .stocks {
+        margin-left: 180px;
+    }
+}
+@media(max-width: 1440px){
+    .stocks {
+        margin-left: 150px;
+    }
+}
+@media(max-width: 1280px){
+    .stocks {
+        margin-left: 85px;
+    }
+    .stocks__img-stock {
+        width: 330px;
+    }
+    .stocks__cells>div {
+        width: 330px;
+    }
+}
+@media(max-width: 1200px){
+    .stocks {
+        margin-left: 50px;
+    }
+    .footer-content__second-block {
+        margin-left: -3%;
+    }
+}
+@media(max-width: 1152px){
+    .header-content__second-block {
+        margin-right: 215px;
+    }
+    .header-content__menu {
+        width: 820px;
+    }
+    .stocks__img-stock {
+        width: 310px;
+    }
+    .stocks__cells>div {
+        width: 310px;
+    }
+    .stocks__description-stock {
+        width: 275px;
+    }
+}
+@media(max-width: 1024px){
+    header {
+        margin-top: -14%;
+    }
+    .header-content__second-block {
+        margin-right: 120px;
+    }
+    .header-content__menu {
+        width: 710px;
+    }
+    .stocks {
+        margin-top: 14%;
+        margin-left: 35px;
+    }
+    .stocks__img-stock {
+        width: 300px;
+    }
+    .stocks__cells>div {
+        width: 300px;
+    }
+    .stocks__description-stock {
+        width: 270px;
+    }
+}
+@media(max-width: 920px){
+    header {
+        margin-top: -14%;
+    }
+    .header-content__third-block {
+        margin-left: 140px;
+    }
+    .header-content__menu {
+        width: 495px;
+    }
+    .stocks {
+        margin-left: 15px;
+    }
+    .stocks__title {
+        font-size: 25px;
+        line-height: 75px;
+    }
+    .stocks__img-stock {
+        width: 245px;
+    }
+    .stocks__cells {
+        justify-content: space-around;
+    }
+    .stocks__cells>div {
+        width: 245px;
+        margin-right: 0;
+    }
+    .stocks__title-stock {
+        width: 225px;
+        font-size: 20px;
+    }
+    .stocks__details {
+        margin-left: 10px;
+    }
+    .stocks__description-stock {
+        width: 230px;
+    }
+    .stocks__button-stock {
+        width: 140px;
+        height: 40px;
+    }
+    .footer-content {
+        margin-left: 65px;
+    }
+    .footer-content__description>div>a {
+        padding-right: 25px;
+    }
+    .footer-content__social-links>div {
+        padding-right: 60px;
+    }
+    .footer-content__сopyright {
+        min-width: 200px;
+    }
+    .footer-content__first-block {
+        width: 280px;
+    }
+    .footer-content__second-block {
+        margin-left: 0;
+    }
+}
+@media (max-width: 820px){
+    header {
+        margin-top: -14%;
+    }
+}
+@media(max-width: 768px){
+    header {
+        margin-top: -150px;
+    }
+    .header-content__third-block {
+        margin-left: 100px;
+    }
+    .header-content__menu {
+        width: 450px;
+    }
+    .stocks {
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    .stocks__cells>div {
+        width: 238px;
+    }
+    .stocks__img-stock {
+        width: 238px;
+    }
+    .stocks__description-stock {
+        width: 210px;
+    }
+    .footer-content__first-block {
+        width: 240px;
+    }
+}
+@media(max-width: 540px){
+    .header-content {
+        margin-left: 53px;
+    }
+    .header-content__menu {
+        width: 140px;
+    }
+    #desktop-stocks{
+        display: none;
+    }
+    #mobile-stocks{
+        display: block;
+    }
+    .stocks__title {
+        font-size: 35px;
+    }
+    .stocks__title-stock {
+        font-size: 23px;
+    }
+    .stocks__list>div{
+        width: 500px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 17px rgb(0 0 0 / 7%);
+        border-radius: 14px;
+        justify-content: space-between;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .stocks__img-stock {
+        width: 500px;
+    }
+    .stocks__details>div{
+        width: 455px;
+    }
+    .stocks__description-stock {
+        width: 455px;
+        font-size: 18px;
+    }
+    .stocks__button-stock {
+        width: 200px;
+        height: 45px;
+    }
+    .footer-content__first-block {
+        width: 440px;
+    }
+}
+@media(max-width: 414px){
+    body{
+        overflow-x: hidden;
+    }
+    .header-content {
+        margin-left: 10px;
+    }
+    .header-content__third-block {
+        margin-left: 62px;
+    }
+    .header-content__menu {
+        width: 103px;
+    }
+    .stocks__list>div {
+        width: 390px;
+    }
+    .stocks__img-stock {
+        width: 390px;
+    }
+    .stocks__details>div {
+        width: 390px;
+    }
+    .stocks__details>div {
+        width: 330px;
+    }
+    .footer-content {
+        margin-left: 25px;
+    }
+    .footer-content__first-block {
+        width: 250px;
+    }
+    .footer-content__description>div {
+        display: block;
+    }
+    .footer-content__links-title {
+        margin-top: 25px;
+    }
+}
+@media(max-width: 393px){
+    .stocks__list>div {
+        width: 373px;
+    }
+    .stocks__img-stock {
+        width: 373px;
+    }
+}
+@media(max-width: 375px){
+    .header-content__menu {
+        width: 80px;
+    }
+    .stocks__list>div {
+        width: 353px;
+    }
+    .stocks__img-stock {
+        width: 353px;
+    }
+    .stocks__details>div {
+        width: 310px;
+    }
+}
+@media(max-width: 360px){
+    .stocks__list>div {
+        width: 342px;
+    }
+    .stocks__img-stock {
+        width: 342px;
+    }
+}
+@media(max-width: 280px){
+    .wrapper{
+        overflow-x: hidden;
+    }
+    header {
+        margin-top: -3px;
+    }
+    .header-content__third-block {
+        margin-left: 20px;
+    }
+    .header-content__menu {
+        width: 57px;
+    }
+    .header-content__enter {
+        width: 90px;
+    }
+    .stocks__img-stock {
+        width: 259px;
+    }
+    .stocks__list>div {
+        width: 259px;
+    }
+    .stocks__details>div {
+        width: 225px;
+    }
+    .footer-content {
+        margin-left: 15px;
+    }
+}

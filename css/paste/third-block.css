@@ -1,0 +1,67 @@
+.block-content-third   {
+    margin-left: 45px;
+}
+.block-content-third>table   {
+    margin: 3% auto 0;
+}
+.block-content-third__title {
+    width: 95px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: left;
+    color: #FF2E65;
+}
+.block-content-third__cell{
+    width: 253px;
+    padding: 20px 20px;
+}
+.block-content-third__name-pizza{
+    width: 255px;
+    height: 56px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0E0C0D;
+}
+.block-content-third__description-pizza{
+    width: 254px;
+    height: 100%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #686466;
+}
+.block-content-third__offer-pizza{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.block-content-third__pizza-price{
+    height: 19px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 19px;
+    color: #231F20;
+    margin: auto 0;
+}
+.block-content-third__pizza-basket{
+    width: 126px;
+    height: 36px;
+    background: #FF2E65;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.block-content-third__pizza-basket>span{
+    width: 79px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;   
+}
+.block-content-third__mobile-block-pizza{
+    display: none;
+}

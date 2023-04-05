@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ya Bao</title>
+    <link rel="icon" href="./img/logo.ico">
+    <link rel="stylesheet" href="./css/general/main-style.css">
+    <link rel="stylesheet" href="./css/general/header.css">
+    <link rel="stylesheet" href="./css/general/footer.css">
+    <link rel="stylesheet" href="./css/general/enter.css">
+    <link rel="stylesheet" href="./css/stocks/stocks.css">
+    <link rel="stylesheet" href="./css/adaptation/header-adaptation.css">
+    <link rel="stylesheet" href="./css/adaptation/footer-adaptation.css">
+    <link rel="stylesheet" href="./css/adaptation/enter-adaptation.css">
+    <link rel="stylesheet" href="./css/adaptation/popup-adaptation.css">
+    <link rel="stylesheet" href="./css/adaptation/burger-menu.css">
+    <link rel="stylesheet" href="./css/adaptation/stocks-adaptation.css">
+    <script src="https://kit.fontawesome.com/a4387b9d19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <div class="header-content__top-block">
+                    <div class="header-content__first-block" style="margin-right: 1px;">
+                        <img src="./img/main-page/header/Logo.png" alt="logo">
+                        <div class="header-content__text-logo">
+                            <div>YA BAO</div>
+                            <span class="text-family">ДУХ КИТАЙСКОЙ ЕДЫ</span>
+                        </div>
+                    </div>
+        
+                    <div class="header-content__second-block text-family">
+                        <div>
+                            Доставка пасты <span class="header-content__text-city">Курск</span>
+                        </div>
+                        <div>Время доставки <div class="header-content__circle"><span></span></div> от 31 мин</div>
+                    </div>
+        
+                    <div class="header-content__third-block">
+                        <button class="text-family">
+                            <span>Заказать звонок</span>
+                        </button>
+                        <div class="text-family">8 800 333-36-62</div>
+                    </div>
+                </div>
+                <div class="burger-menu__body">
+                    <div class="burger-menu__strip">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="burger-menu__wrapper">
+
+                    <nav class="burger-menu__header">
+                        <div class="header-content__text">YA BAO</div>
+                        <ul class="burger-menu__list">
+                            <li>
+                                <a href="./index.html#paste">Паста</a>
+                            </li>
+                            <li>
+                                <a href="#">Супы</a>
+                            </li>
+                            <li>
+                                <a href="#">Салаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Антипасти</a>
+                            </li>
+                            <li>
+                                <a href="#">Напитки</a>
+                            </li>
+                            <li>
+                                <a href="#">Десерты</a>
+                            </li>
+                            <li>
+                                <a href="#">Бакалея</a>
+                            </li>
+                            <li>
+                                <a href="./stock.html">Акции</a>
+                            </li>
+                            <li>
+                                <a href="#">Комбо</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="header-content__bottom-block text-family">
+                    <nav class="header-content__menu">
+                        <ul>
+                            <li>
+                                <a href="./index.html#paste">Паста</a>
+                            </li>
+                            <li>
+                                <a href="#">Супы</a>
+                            </li>
+                            <li>
+                                <a href="#">Салаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Антипасти</a>
+                            </li>
+                            <li>
+                                <a href="#">Напитки</a>
+                            </li>
+                            <li>
+                                <a href="#">Десерты</a>
+                            </li>
+                            <li>
+                                <a href="#">Бакалея</a>
+                            </li>
+                            <li>
+                                <a href="#">Акции</a>
+                            </li>
+                            <li>
+                                <a href="#">Комбо</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-content__button text-family">
+                        <button class="header-content__enter">Войти</button>
+                        <button class="header-content__basket">
+                            <div class="header-content__basket-text">
+                                Корзина <div class="header-content__line"><span></span></div><span class="header-content__basket-amount">0</span>
+                            </div>
+                        </button>
+                        <span class="header-content__basket-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="block-enter__wrapper">
+            <div class="block-enter__main-info">
+                <div class="block-enter__additional-wrapper text-family">
+                    <div  class="block-enter__title">Вход на сайт</div>
+                    <img src="./img/ordering/first-block/close.png" alt="close" class="block-enter__img-close">
+
+                    <div class="block-enter__first-step">
+                        <div class="block-enter__block-phone">
+                            <div class="block-enter__phone-title">Номер телефона</div>
+                            <input id="number-tel-first-block" type="tel" placeholder="+7 999 999-99-99" class="block-enter__phone-number" data-tel-input maxlength="18">
+                        </div>
+                        <div class="block-enter__block-button">
+                            <button class="block-enter__button-code">Выслать код</button>
+                            <div class="block-enter__personal-information">Продолжая, вы соглашаетесь <a href="#">со сбором и обработкой персональных данных и пользовательским соглашением</a></div>
+                        </div>
+                    </div>
+
+                    <div class="block-enter__second-step">
+                        <div class="block-enter__block-phone">
+                            <div class="block-enter__phone-title">Номер телефона</div>
+                            <input id="number-tel-second-block" type="tel" class="block-enter__phone-number" style="border: none; width: 155px; color: #696F7A;" data-tel-input maxlength="18" disabled>
+                            <div id="change-number-tel" class="block-enter__change-number">Изменить</div>
+                            <span class="block-enter__underline-change-phone"></span>
+                        </div>
+                        <div class="block-enter__block-code">
+                            <div class="block-enter__phone-title">Код из СМС</div>
+                            <input class="block-enter__code">
+                            <div id="new-code" class="block-enter__change-number">Получить новый код</div>
+                            <span class="block-enter__underline-change-code"></span>
+                        </div>
+                    </div>
+
+                    <span class="error__rhombus"></span>
+                    <div class="error-body">
+                        <div class="error-block">
+                            <img src="./img/main-page/enter-block/image.svg" alt="" class="error-block__img">
+                            <div class="error-block__text">Неверный номер</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stocks text-family">
+            <div class="stocks__title">Акции</div>
+            <div id="desktop-stocks" class="stocks__list">
+                <div class="stocks__cells">
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                </div>                    
+                <div class="stocks__cells">
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="stocks__cells">
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="stocks__cells">
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                        <div class="stocks__details">
+                            <div class="stocks__title-stock">Дарим кибер-призы</div>
+                            <div class="stocks__description-stock">
+                                Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                            </div>
+                            <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobile-stocks" class="stocks__list">
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/stock-page/Rectangle 77.png" alt="" class="stocks__img-stock">
+                    <div class="stocks__details">
+                        <div class="stocks__title-stock">Дарим кибер-призы</div>
+                        <div class="stocks__description-stock">
+                            Вот так ачивка! Закажите Кибер-комбо и получите доступ к играм от MY.GAMES, а еще кокосовый батончик и шоколадное печенье «Cyber» от Bite. А также станьте автоматическим участником розыгрыша игровых ключей и больших пицц 29 июня.
+                        </div>
+                        <button class="stocks__button-stock"><span>Посмотреть</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-content__first-block">
+                    <div class="footer-content__block-logo">
+                        <img src="./img/main-page/footer/Logo.png" alt="logo">
+                        <div class="footer-content__text-logo">
+                            <div>YA BAO</div>
+                            <span class="text-family">Дух китайской еды</span>
+                        </div>
+                    </div>
+                    <div class="footer-content__description text-family">
+                        <div>
+                            <a href="#">Калорийность и состав</a>
+                            <a href="#">Правовая информация</a>
+                        </div>
+                    </div>
+                    <div class="footer-content__social-networks text-family">
+                        <div class="footer-content__links-title">Мы в соцсетях</div>
+                        <div class="footer-content__social-links">
+                            <div>
+                                <a href="https://www.youtube.com/">YouTube</a>
+                                <a href="https://www.instagram.com/">Instagram</a>
+                            </div>
+                            <div>
+                                <a href="https://www.facebook.com/">Facebook</a>
+                                <a href="https://www.vk.com">ВКонтакте</a>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="footer-content__сopyright-payment text-family">
+                        <div class="footer-content__сopyright">
+                            <script>
+                                document.write("YaBao Все права защищены &copy; "+ new Date().getFullYear());
+                            </script>
+                        </div>
+                        <div class="footer-content__icons-payment">
+                            <img src="./img/main-page/footer/visa.svg" alt="visa">
+                            <img src="./img/main-page/footer/paypal.svg" alt="paypal">
+                            <img src="./img/main-page/footer/mastercard.svg" alt="mastercard">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-content__second-block text-family">
+                    <div class="footer-content__icons-title">ОСТАЛИСЬ ВОПРОСЫ? А МЫ ВСЕГДА НА СВЯЗИ:</div>
+                    <div class="footer-content__social-icons">
+                        <div class="footer-content__icons-top">
+                            <a href="viber://chat?number=%2B380500000000">
+                                <div class="footer-content__icons-div">
+                                    <img src="./img/main-page/footer/viber.svg" alt="">
+                                </div>                        
+                            </a>
+                            <a href="skype:SkypeUser">
+                                <div class="footer-content__icons-div">
+                                    <img src="./img/main-page/footer/skype.svg" alt="">
+                                </div>                        
+                            </a>
+                            <a href="#">
+                                <div class="footer-content__icons-div">
+                                    <img src="./img/main-page/footer/message.svg" alt="">
+                                </div>                        
+                            </a>
+                            <a href="telegram.me/@groupname">
+                                <div class="footer-content__icons-div">
+                                    <img src="./img/main-page/footer/telegram.svg" alt="">
+                                </div>
+                            </a>
+                        </div>                    
+                        <div class="footer-content__icons-bottom">
+                            <a href="https://www.facebook.com/">
+                                <div class="footer-content__icons-div">
+                                    <img src="./img/main-page/footer/facebook.svg" alt="">
+                                </div>
+                            </a>
+                            <a href="https://www.vk.com/">
+                                <div class="footer-content__icons-div">
+                                    <img src="./img/main-page/footer/vk.svg" alt="">
+                                </div>
+                            </a>
+                            <button >Написать нам</button>
+                        </div>
+                    </div>
+                    <div class="footer-content__block-order">
+                        <div class="footer-content__order">
+                            <div>8 800 333-36-62</div>
+                            <button>
+                                <span>Заказать звонок</span>
+                            </button>
+                        </div>
+                        <img src="./img/main-page/footer/image 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <span class="button-top" aria-hidden="true">
+        <i class="fas fa-long-arrow-alt-up"></i>
+    </span>
+
+    <script src="./js/button-top.js"></script>
+    <script src="./js/enter.js"></script>
+    <script src="./js/phoneinput.js"></script>
+    <script src="./js/burger-menu.js"></script>     
+</body>
+</html>
